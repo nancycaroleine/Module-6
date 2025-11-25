@@ -30,13 +30,33 @@ To write a Python program to perform division of two complex numbers using the b
 ---
 
 ### PROGRAM
+212223060181
 
+NANCY
 ```
+class complex:
+    def __init__(self, r, i):
+        self.r = r
+        self.i = i
+    
+    def __truediv__(self, other):
+        real = self.r / other.r
+        imag = self.i / other.i
+        return complex(real, imag)
+    
+    def __str__(self):
+        return f"({self.r}, {self.i})"
 
+ob1 = complex(10, 21)
+ob2 = complex(2, 3)
+
+result = ob1 / ob2
+print(result)
 ```
-
 ### OUTPUT
 
+<img width="727" height="192" alt="image" src="https://github.com/user-attachments/assets/545f1737-22d5-4a37-8756-90951ba522b2" />
 
 ### RESULT
 
+Thus, the python code is written and execcuted successfully.
