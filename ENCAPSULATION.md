@@ -24,16 +24,24 @@ To write a Python program to create a class `Student` with the private members `
 ---
 
 ### PROGRAM
+212223060181
 
+NANCY
 ```
-
-
-
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+    def show(self):
+        print("Name: ", self.name, "Salary:", self.salary)
+emp = Employee('Jessa', 10000)
+print("Name: ", emp.name, 'Salary:', emp.salary)
+emp.show()
 ```
-
 ### OUTPUT
 
+<img width="841" height="282" alt="image" src="https://github.com/user-attachments/assets/b9f471eb-89cd-4ef0-886a-00d35bbe48a4" />
 
 ### RESULT
 
-
+Thus, the python code is written and executed successfully.
